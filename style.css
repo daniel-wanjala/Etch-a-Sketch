@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: 700;
+}
+
+header {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 48px;
+}
+
+#container {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 10px;
+}
+
+span {
+	padding: 5px;
+	width: 70px;
+	background-color: powderblue;
+	transition: background-color 0.5s;
+}
+
+span:hover {
+	background-color: gold;
+}
+
+#left-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.buttons {
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	width: 60px;
+}
+
+.clear,
+.eraser {
+	padding: 3px;
+}
+
+#right-container {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	border: #000000 solid 3px;
+}
+
+.row {
+	display: flex;
+	font-size: 9.5px;
+	text-align: center;
+	color: red;
+}
+.cell {
+	min-width: 10px;
+	min-height: 10px;
+	margin: 1px;
+	border: 1px solid black;
+}
